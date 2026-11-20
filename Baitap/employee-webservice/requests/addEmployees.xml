@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:emp="http://service.employee.fpt.vn/">
+  <soap:Body>
+    <emp:addEmployees><e><id>1001</id><name>Nguyễn Văn An</name><salary>15000000.00</salary></e></emp:addEmployees>
+  </soap:Body>
+</soap:Envelope>

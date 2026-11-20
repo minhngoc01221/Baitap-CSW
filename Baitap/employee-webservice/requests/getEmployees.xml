@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:emp="http://service.employee.fpt.vn/">
+  <soap:Body><emp:getEmployees/></soap:Body>
+</soap:Envelope>

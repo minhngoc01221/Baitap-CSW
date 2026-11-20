@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER PRIMARY KEY CHECK (id > 0),
+    name VARCHAR(100) NOT NULL CHECK (CHAR_LENGTH(TRIM(name)) > 0),
+    salary DECIMAL(15, 2) NOT NULL CHECK (salary >= 0)
+);
